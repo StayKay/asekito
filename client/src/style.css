@@ -2,6 +2,7 @@
 
 #entire-application {
   font-family: Inter;
+  font-size: 15px;
 }
 
 .host-pic {
@@ -12,8 +13,9 @@
 }
 
 #hosted-by-info {
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .separation-line {
