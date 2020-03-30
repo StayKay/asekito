@@ -1,0 +1,2 @@
+# asekito
+location-info
