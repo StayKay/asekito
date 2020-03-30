@@ -1,0 +1,19 @@
+version: "3.4"
+
+services:
+  database:
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+    expose:
+      - 3306
+    image: mysql:5.7
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    depends_on:
+      - "database"
+    restart: on-failure
+    ports:
+      - 4001:4001
+    command: npm start

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Inter|Open+Sans&display=swap");
+
+#entire-application {
+  font-family: Inter;
+}
+
+.host-pic {
+  float: right;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+}
+
+#hosted-by-info {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.separation-line {
+  background-color: #b8b8b8;
+  height: 1.3px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+  margin-top: 40px;
+}
+
+.descript {
+  color: grey;
+  font-size: 14px;
+}
+
+.icon-home-pic {
+  width: 35px;
+  height: 35px;
+  float: left;
+}
+
+.first-house-stats {
+  margin-bottom: 15px;
+}
+
+#location-bio {
+  margin-top: 10px;
+}
+
+#amenities-section {
+  margin-top: 25px;
+}
+
+.arrangements {
+  float: left;
+  margin-left: 120px;
+  padding: 40px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.bed-icon {
+}
