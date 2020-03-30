@@ -6,7 +6,7 @@ const {
 } = require("./mockdata.js");
 
 const sequelize = new Sequelize("locationInfo", "root", "password", {
-  // host: "database",
+  host: "database",
   dialect: "mysql"
 });
 

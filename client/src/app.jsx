@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 import axios from "axios";
 import HostStat from "./components/HostStat.jsx";
 import Amenities from "./components/Amenities.jsx";
-import AmenitiesList from "./components/AmenitiesList.jsx";
 import styles from "./style.css";
 
 class LocationInfo extends React.Component {

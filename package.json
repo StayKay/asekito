@@ -4,7 +4,7 @@
   "description": "location-info",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./server/server.js",
+    "start": "node ./database/dbCreate.js && node ./database/sqlDataInput.js && webpack -d && node ./server/server.js",
     "build": "webpack -d --watch"
   },
   "repository": {
