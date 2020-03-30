@@ -55,5 +55,14 @@
   border-radius: 15px;
 }
 
-.bed-icon {
+.arrangements:hover {
+  box-shadow: 0px 0px 5px 5px rgba(122, 116, 116, 0.2);
+}
+
+#amenities-list {
+  display: inline-block;
+}
+
+#house-info {
+  margin-top: 20px;
 }

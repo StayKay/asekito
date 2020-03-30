@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import axios from "axios";
 import HostStat from "./components/HostStat.jsx";
 import Amenities from "./components/Amenities.jsx";
+import AmenitiesList from "./components/AmenitiesList.jsx";
 import styles from "./style.css";
 
 class LocationInfo extends React.Component {
@@ -55,29 +56,13 @@ class LocationInfo extends React.Component {
     }
   }
 
-  allAmenities() {
-    const amen = this.props.amenities;
-    let amenities = [];
-    for (var key in amen) {
-      if (this.props.amenities[key]) {
-        amenities.push(key);
-      }
-    }
-
-    let num = 0;
-
-    return amenities.
-    amenities.shift();
-  }
-
   render() {
     return (
       <div id={styles["entire-application"]}>
-        <div>{this.renderHostStats()}</div>
-        {/* <div className={styles["separation-line"]}></div> */}
-        <div>{this.renderAmenities()}</div>
         <div>
-          <div>{this.allAmenities()}</div>
+          <div>{this.renderHostStats()}</div>
+          {/* <div className={styles["separation-line"]}></div> */}
+          <div>{this.renderAmenities()}</div>
         </div>
       </div>
     );

@@ -57,7 +57,7 @@ class HostStat extends React.Component {
             <span>{this.props.locationStat.baths} baths </span>
           </div>
         </div>
-        <div>
+        <div id={styles["house-info"]}>
           <div className={styles["first-house-stats"]}>
             {this.renderEntireHome()}
           </div>

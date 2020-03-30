@@ -8,3 +8,5 @@ const Amenitieslist = ({ amenity }) => {
     </div>
   );
 };
+
+export default Amenitieslist;
