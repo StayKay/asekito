@@ -16,6 +16,7 @@
   font-size: 20px;
   margin-bottom: 10px;
   font-weight: 700;
+  color: black;
 }
 
 .separation-line {
@@ -67,4 +68,5 @@
 
 #house-info {
   margin-top: 20px;
+  color: black;
 }
